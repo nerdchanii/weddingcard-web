@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* hide scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* scrollbar sm */
+.scrollbar-sm::-webkit-scrollbar {
+  width: 0.25rem;
+  height: 6px;
+}
+.scrollbar-sm{
+  
+  scrollbar-width: thin;
+  scrollbar-color: #ffffff60 #ffffff00;
+}
+
+.scrollbar-sm::-webkit-scrollbar-track {
+  background: inherit;
+
+}
+.scrollbar-sm::-webkit-scrollbar-thumb {
+  background: #ffffff60;
+  border-radius: 0.5rem;
+}
+
